@@ -7,9 +7,30 @@
 
 # Jest expect matcher for arguments objects
 
+## What's it for?
+
+Adds `.toBeArguments()` matcher to Jest `expect()` for whether something is an instance of Arguments object.
+
+```js
+it('works', () => {
+  (function() {
+    expect(arguments).toBeArguments();
+  })();
+});
+```
+
 ## Usage
 
-This module is under development and not ready for use yet.
+Require this package in your tests.
+
+Or add to your Jest config file:
+
+```js
+{
+  /* ... rest of config ... */
+  setupFilesAfterEnv: ['jest-expect-arguments']
+}
+```
 
 ## Versioning
 

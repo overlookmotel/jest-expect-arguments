@@ -16,7 +16,9 @@
   "bugs": {
     "url": "https://github.com/overlookmotel/jest-expect-arguments/issues"
   },
-  "dependencies": {},
+  "dependencies": {
+    "jest-matcher-utils": "^26.1.0"
+  },
   "devDependencies": {
     "@overlookmotel/eslint-config": "^7.2.1",
     "@overlookmotel/eslint-config-jest": "^4.1.1",
