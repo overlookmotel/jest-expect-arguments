@@ -1,6 +1,6 @@
 {
   "name": "jest-expect-arguments",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Jest expect matcher for arguments objects",
   "main": "index.js",
   "files": [
